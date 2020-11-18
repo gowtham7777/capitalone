@@ -58,7 +58,7 @@
         <div *ngFor="let step of steps" class="grid-item"> 
         {{0}}{{step.stepNumber}}
         <hr class="solid" style="width: 20px;">
-                <div *ngFor="let version of step.versionContent"> 
+                <div *ngFor="let version of step.versionContent" class="title-body"> 
               <b>{{version.title}}</b>   
               <div class="grid-body"><p>{{version.body}}</p></div>  
                 </div>

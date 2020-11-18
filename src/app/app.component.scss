@@ -1,3 +1,7 @@
+html, body {
+  font-family: 'Lato';
+}
+
 p {
   margin: 0;
 }
@@ -5,7 +9,6 @@ p {
 .svg-endless
 {
 width: 100px;
-text-color:aqua;
 }
 .spacer {
   flex: 1;
@@ -68,7 +71,7 @@ svg.material-icons {
     position: absolute;
     bottom: 180px;
     left: 80px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lato-Bold';
     color:#FFF;
   }
 
@@ -77,6 +80,11 @@ svg.material-icons {
     text-align: center;
     font-size: large;
     font-weight: bold;
+    font-family: 'Lato';
+  }
+
+  .title-body{
+    font-family: 'Lato';
   }
 
   .btn-get-started{
@@ -85,6 +93,7 @@ svg.material-icons {
   height: 31px;
   border: none;
   }
+
 
   .btn-get-started:hover{
     background-color: #FFCCCC;
@@ -100,14 +109,8 @@ svg.material-icons {
    }
 
    .parallax {
-    /* The image used */
     background-image: url('/assets/img/photo-couch.jpg');
-
-  
-    /* Set a specific height */
     min-height: 700px; 
-  
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
